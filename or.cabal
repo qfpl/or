@@ -52,6 +52,12 @@ library
                     Data.MaybeThese
                     Data.MaybeEither
                     Data.These
+                    Data.This
+                    Data.That
+                    Data.Both
+                    Data.Some
+                    Data.None
+                    Data.Or
 
 test-suite          tests
 

@@ -10,3 +10,4 @@ import Papa
 newtype MaybeThese a b =
   MaybeThese
     (Maybe (These a b))
+  deriving (Eq, Ord, Show)
