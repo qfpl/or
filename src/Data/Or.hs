@@ -10,5 +10,4 @@ import Data.These as O
 import Data.This as O
 import Data.That as O
 import Data.Both as O
-import Data.Some as O
-import Data.None as O
+import Data.Neither as O

@@ -55,9 +55,8 @@ library
                     Data.This
                     Data.That
                     Data.Both
-                    Data.Some
-                    Data.None
                     Data.Or
+                    Data.Neither
 
 test-suite          tests
 
