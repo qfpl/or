@@ -1,0 +1,22 @@
+* `These`, `MaybeEither`, `MaybeThese`
+  * `Semigroup` instances
+  * `Swapped` instances
+  * `Traversable` instances
+  * `Bitraversable` instances
+  * `Traversable1` instances
+  * `Bitraversable1` instances
+  * `Functor` instances
+  * `Bifunctor` instances
+  * `Semigroup => Applicative` instances
+  * `Semigroup => Bind` instances
+  * `Semigroup => Monad` instances
+
+* `Align` type-class
+  * See https://hackage.haskell.org/package/these/docs/src/Data-Align.html
+  * LICENCE attribution
+
+* combinators
+  * `f a -> f b -> f (These a b)`
+  * `f a -> f b -> f (Maybe a, Maybe b)`
+  * etc etc
+  
