@@ -19,4 +19,6 @@
   * `f a -> f b -> f (These a b)`
   * `f a -> f b -> f (Maybe a, Maybe b)`
   * etc etc
-  
+
+* tests
+* docs
