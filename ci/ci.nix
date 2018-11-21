@@ -22,9 +22,9 @@ let
             compiler = configuration.compiler; 
             system = configuration.system; 
             nixpkgs = { pkgs = pkgsFor system; };
-            or = import ../default.nix { inherit nixpkgs compiler; };
+            _or = import ../default.nix { inherit nixpkgs compiler; };
           in
-            or
+            _or
       ) configurations;
 in
   jobs
