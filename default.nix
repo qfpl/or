@@ -12,8 +12,8 @@ let
     papa = pkgs.fetchFromGitHub {
       owner = "qfpl";
       repo = "papa";
-      rev = "9752ec3341df8117121c23e2fa8eadc38af7841b";
-      sha256 = "05g00hjd8hi5lvc9k9smqh6s4sjyd07hr94qicjsigl5k241gibh";
+      rev = "536b0a9243802347c299e077b5d85beb80d3a4a1";
+      sha256 = "10wx0z5cd8dajr3rdskaq64v42ppa8dbb3rs3jyj872218xjz6nr";
     };
   };
 
@@ -21,6 +21,7 @@ let
     overrides = self: super: import sources.papa self // {
       parsers = pkgs.haskell.lib.dontCheck super.parsers;
       tagsoup-selection = pkgs.haskell.lib.doJailbreak super.tagsoup-selection;
+      polyparse = self.callHackage "polyparse" "1.12.1" {};
     };
   };
 
