@@ -6,4 +6,4 @@ Three data types:
 2. `λa b → Either (Either a b) ((,) a b)` *aka `These`*
 3. `λa b → Maybe (Either (Either a b) ((,) a b))`
 
-![Data61](http://i.imgur.com/uZnp9ke.png)
+![CSIRO's Data61 Logo](https://raw.githubusercontent.com/qfpl/assets/master/data61-transparent-bg.png)
